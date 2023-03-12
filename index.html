@@ -5,22 +5,54 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <!--Add link to styles.css-->
+    <link rel="stylesheet" href="/styles.css" />
+    <!--Add link to use fancy font from google fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
-      <h1>Ekaterina Chernova</h1>
-      <img src="/public/IMG_0017.jpeg" alt="personal photo" width="300px" />
+      <nav>
+        <section id="logo-name">
+          <!--The link to the main page will be added later-->
+          <a href="#">
+            <h1>Ekaterina Chernova</h1>
+            <h2>Web Developer</h2>
+          </a>
+        </section>
+        <!--the section for menu-bar has been added in order to simplify align content inside menu-bar-->
+        <section id="menu-bar">
+          <ul>
+            <a href="#"><li>Portfolio</li></a>
+            <a href="#"><li>Contacts</li></a>
+            <a href="#"><li>Blog</li></a>
+          </ul>
+        </section>
+      </nav>
     </header>
     <main>
+      <img src="/public/IMG_0017.jpeg" alt="personal photo" width="300px" />
+
       <section id="about me">
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
-          nostrum, accusantium similique ratione neque a perspiciatis. Excepturi
-          officiis sit sed impedit facere, suscipit iure, ipsa reprehenderit
-          eveniet dolor sint velit!
+          Hey! I am a Web Developer based in Berlin. My last project was
+          connected with fashion industry and I am addicted with this field.
+          Please check my GitHub page
+          <a href="https://github.com/ekachernova/lookbox">here</a>. I would be
+          happy to continue to work in the fashion industry but I am also open
+          for any others projects where I can implement my skills in order to
+          help the team to develop the project. Now I am imroving my skills to
+          the more higher level by doing a Full Stack Development Bootcamp at
+          Spiced Academy which ends in June 2023. After this bootcamp I would be
+          happy to help with back-end stuff also.
         </p>
 
-        <article id="technologies">
+        <!-- <article id="technologies">
           <h2>I use:</h2>
           <ul>
             <li>JavaScript</li>
@@ -36,7 +68,7 @@
             <li>Github</li>
             <li>Facebook</li>
           </ul>
-        </article>
+        </article> -->
       </section>
 
       <footer>&copy Copyright</footer>
