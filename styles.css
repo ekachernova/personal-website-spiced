@@ -10,7 +10,7 @@ body {
   margin-left: 200px;
   margin-right: 200px;
 }
-
+/*header+nav*/
 h1 {
   font-size: 50px;
 }
@@ -50,7 +50,7 @@ img {
   border-radius: 10px;
   margin-bottom: 40px;
 }
-/*Here starts styles for the main content of the website*/
+/*Main*/
 main {
   margin-bottom: 40px;
 }
@@ -81,4 +81,21 @@ li i {
 }
 span {
   color: #ff06b7;
+}
+
+/*Footer*/
+footer {
+  display: flex;
+  height: 60px;
+}
+footer ul {
+  display: flex;
+}
+#copyright {
+  width: 80%;
+  font-weight: bold;
+}
+#footer-contacts i {
+  width: 20%;
+  font-size: 20px;
 }
