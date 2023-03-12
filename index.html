@@ -4,42 +4,91 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Ekaterina Chernova Web Developer</title>
+    <!--Add link to styles.css-->
+    <link rel="stylesheet" href="/styles.css" />
+    <!--Add link to use fancy font from google fonts I used the instructions from the website-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <!--Add link to use icons from fontawesome.com I used the instructions from the website-->
+    <script
+      src="https://kit.fontawesome.com/4e4b63f4ba.js"
+      crossorigin="anonymous"
+    ></script>
   </head>
   <body>
     <header>
-      <h1>Ekaterina Chernova</h1>
-      <img src="/public/IMG_0017.jpeg" alt="personal photo" width="300px" />
+      <nav>
+        <section id="logo-name">
+          <!--The link to the main page will be added later-->
+          <a href="#">
+            <h1>Ekaterina Chernova</h1>
+            <h2>Web Developer</h2>
+          </a>
+        </section>
+        <!--the section for menu-bar has been added in order to simplify align content inside menu-bar-->
+        <section id="menu-bar">
+          <ul>
+            <a href="#"><li>Portfolio</li></a>
+            <a href="#"><li>Contacts</li></a>
+            <a href="#"><li>Blog</li></a>
+          </ul>
+        </section>
+      </nav>
     </header>
     <main>
-      <section id="about me">
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat
-          nostrum, accusantium similique ratione neque a perspiciatis. Excepturi
-          officiis sit sed impedit facere, suscipit iure, ipsa reprehenderit
-          eveniet dolor sint velit!
-        </p>
+      <img src="/public/IMG_0017.jpeg" alt="personal photo" width="300px" />
 
-        <article id="technologies">
-          <h2>I use:</h2>
-          <ul>
-            <li>JavaScript</li>
-            <li>CSS</li>
-            <li>HTML</li>
-          </ul>
+      <section id="about-me">
+        <article id="summary">
+          Hey! I am a skilled Web Developer currently based in Berlin. My most
+          recent project involved working with the fashion industry. If you'd
+          like to check it out, you can find it
+          <a href="https://github.com/ekachernova/lookbox"><span>here</span></a
+          >.
+          <br />
+          <br />
+          I am eager to take on new projects where I can apply my expertise and
+          contribute to the team's success.
+          <br />
+          <br />
+          Right now, I'm leveling up my knowledge game with a Full Stack
+          Development Bootcamp at
+          <a
+            href="https://www.spiced-academy.com/en/program/full-stack-web-development"
+            ><span>Spiced Academy🌶 Berlin</span></a
+          >, which will wrap up in June 2023. Can't wait to see what's next!
         </article>
 
-        <article>
-          <h2>Contacts</h2>
+        <article id="technologies">
+          <h2>Tech Stack:</h2>
+          <br />
           <ul>
-            <li>Instagram</li>
-            <li>Github</li>
-            <li>Facebook</li>
+            <li><i class="fa-brands fa-js"></i></li>
+            <li><i class="fa-brands fa-node-js"></i></li>
+            <li><i class="fa-brands fa-html5"></i></li>
+            <li><i class="fa-brands fa-css3"></i></li>
           </ul>
         </article>
       </section>
-
-      <footer>&copy Copyright</footer>
     </main>
+
+    <footer>
+      <section id="copyright">&copy Copyright</section>
+      <section id="footer-contacts">
+        <ul>
+          <a href="https://www.linkedin.com/in/ekaterina-chernova-67003537/"
+            ><li><i class="fa-brands fa-linkedin"></i></li
+          ></a>
+          <a href="https://github.com/ekachernova"
+            ><li><i class="fa-brands fa-github"></i></li
+          ></a>
+        </ul>
+      </section>
+    </footer>
   </body>
 </html>

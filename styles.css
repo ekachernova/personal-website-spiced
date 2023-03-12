@@ -1,0 +1,101 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  color: #3c2c3e;
+  background-color: whitesmoke;
+}
+body {
+  margin-left: 200px;
+  margin-right: 200px;
+}
+/*header+nav*/
+h1 {
+  font-size: 50px;
+}
+
+header {
+  margin-bottom: 40px;
+  height: 150px;
+}
+nav {
+  display: flex;
+  border-bottom: 3px solid black;
+  padding-bottom: 20px;
+}
+#menu-bar {
+  padding-left: 100px;
+}
+#menu-bar ul {
+  width: auto;
+  display: flex;
+  justify-content: right;
+}
+a {
+  text-decoration: none;
+}
+/*this hover makes menu items more visible by moving the mouse over it*/
+a li:hover {
+  color: #ff06b7;
+  font-weight: bolder;
+  font-size: 40px;
+}
+#menu-bar li {
+  list-style-type: none;
+  padding: 50px;
+}
+img {
+  width: 200px;
+  border-radius: 10px;
+  margin-bottom: 40px;
+}
+/*Main*/
+main {
+  margin-bottom: 40px;
+}
+#technologies {
+  margin-top: 40px;
+}
+#technologies ul {
+  display: flex;
+}
+li {
+  list-style-type: none;
+}
+
+li i {
+  color: #4b5d67;
+  font-size: 60px;
+  padding-left: 40px;
+  padding-right: 40px;
+}
+#about-me {
+  font-size: 18px;
+  text-align: justify;
+}
+#about-me a span:hover {
+  color: #ff06b7;
+  font-weight: bolder;
+  font-size: 30px;
+}
+span {
+  color: #ff06b7;
+}
+
+/*Footer*/
+footer {
+  display: flex;
+  height: 60px;
+}
+footer ul {
+  display: flex;
+}
+#copyright {
+  width: 80%;
+  font-weight: bold;
+}
+#footer-contacts i {
+  width: 20%;
+  font-size: 20px;
+}
